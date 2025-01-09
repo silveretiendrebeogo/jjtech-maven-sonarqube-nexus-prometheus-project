@@ -7,7 +7,7 @@
 
 Steps involved:
 1. Setup new EC2 instance for slave
-2. Create SSH keys in jenkins master and upload public keys from master to slave node.
+2. Create SSH keys in jenkins slave node and upload public keys from slave to master node.
 3. verify ssh connection from master to slave
 4. Register slave node in Jenkins master
 5. Run build jobs in Jenkins slave
